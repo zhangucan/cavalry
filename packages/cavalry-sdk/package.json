@@ -1,0 +1,23 @@
+{
+    "name": "@uranplus/cavalry-sdk",
+    "version": "2.1.0",
+    "description": "cavalry sdk for web ",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "mocha",
+        "build": "tsc"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "cavalry",
+        "sdk",
+        "web"
+    ],
+    "dependencies": {
+        "chai": "^4.2.0"
+    },
+    "author": "Caster Zeng",
+    "license": "ISC"
+}

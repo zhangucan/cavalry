@@ -1,0 +1,15 @@
+{
+    "name": "@uranplus/cavalry-utils",
+    "version": "1.0.0",
+    "description": "cavalry utils",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "mocha",
+        "build": "tsc"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "author": "Caster Zeng<iscaster@qq.com>",
+    "license": "ISC"
+}

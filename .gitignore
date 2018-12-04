@@ -1,0 +1,64 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+/log
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+error.txt
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+# xlxs
+/packages/cavalry-raw-files/nj-data/2018-08-01/achievement
+/packages/cavalry-raw-files/nj-data/2018-08-01/recruitment_recall
+/packages/cavalry-raw-files/nj-data/2018-08-01/resident_achievement
+/packages/cavalry-raw-files/nj-data/2018-09-01/achievement
+/packages/cavalry-raw-files/nj-data/2018-09-01/recruitment_recall
+/packages/cavalry-raw-files/nj-data/2018-09-01/resident_achievement
+# logs
+/packages/cavalry-raw-files/logs
+
+# System Files
+.DS_Store
+Thumbs.db
+=======
+node_modules
+yarn-error.log
+.DS_Store
+package-lock.json
+yarn.lock
+
+config/local.yaml
+config/local.yml
+
+packages/cavalry-define/dist
+packages/cavalry-sdk/dist
+packages/cavalry-utils/dist
+
+
+.nyc_output
+lerna-debug.log

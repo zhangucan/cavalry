@@ -1,0 +1,95 @@
+es:
+    url: http://es.nj.jsdebug.org
+    audit:
+        index: audits
+        type: 201806
+    resume:
+        index: resumes
+    user_resume:
+        index: user_resumes
+    omission:
+        index: omissions
+main:
+    web_service_url: http://nj.jsdebug.org/api/v1
+    interval: 24
+    interval_unit: hour
+    start_time:
+
+cavalry:
+    es:
+        attendance:
+            index: attendance
+            type: attendance
+            reimport_records: false
+        ask4leave:
+            index: ask4leave
+            type: ask4leave
+            reimport_records: false
+        business_trip:
+            index: business_trip
+            type: business_trip
+            reimport_records: false
+        recruitment_recall:
+            index: recruitment_recall
+            type: recruitment_recall
+            reimport_records: false
+        employee_position_change:
+            index: employee_position_change
+            type: employee_position_change
+        employee_leave:
+            index: employee_leave
+            type: employee_leave
+        social_insurance:
+            index: social_insurance
+            type: social_insurance
+        salary_slice:
+            index: salary_slice
+            type: salary_slice
+        fruit_slices:
+            index: fruit_slices
+            type: fruit_slices
+            reimport_records: false
+        employee:
+            index: employee
+            type: employee
+            reimport_records: false
+        position_change:
+            index: position_change
+            type: position_change
+            reimport_records: false
+        achievement:
+            index: achievement
+            type: achievement
+            reimport_records: false
+        base_salary:
+            index: base_salary
+            type: base_salary
+            reimport_records: false
+        kpi_payment:
+            index: kpi_payment
+            type: kpi_payment
+            reimport_records: false
+        team_profit_cost:
+            index: department_profit_cost
+            type: department_profit_cost
+            reimport_records: false
+        commission_rate:
+            index: commission_rate
+            type: commission_rate
+            reimport_records: false
+        staff_position:
+            index: staff_position
+            type: staff_position
+            reimport_records: false
+        initial_team:
+            index: initial_department
+            type: initial_department
+            reimport_records: false
+    xlsx:
+        incomings:
+            folder: src/data/njdata_0921
+        salary:
+            folder: src/data/salary
+        profit:
+            folder: src/data/profit
+    month: 2018-09-01

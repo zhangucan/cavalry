@@ -1,0 +1,19 @@
+{
+    "name": "@uranplus/cavalry-define",
+    "version": "1.4.0",
+    "description": "cavalry defines of class interface enum, etc",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "mocha",
+        "build": "tsc"
+    },
+    "keywords": [
+        "cavalry",
+        "defines"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "author": "Caster Zeng",
+    "license": "ISC"
+}
